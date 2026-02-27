@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "about": "Sobre mi",
+    "employment": "Experiencia",
+    "skills": "Habilidades",
+    "education": "Educacion",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "resume": "CV"
+  },
+  "sections": {
+    "about": "Sobre mi",
+    "employment": "Experiencia",
+    "skills": "Habilidades Tecnicas",
+    "education": "Educacion",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "overview": {
+    "title": "Ingeniera senior IA",
+    "subtitle": "Arquitecta de sistemas LLM, RAG y optimización de transformadores",
+    "cta": {
+      "projects": "Ver proyectos",
+      "contact": "Contactarme",
+      "resume": "Ver CV"
+    }
+  },
+  "about": {
+    "photoAlt": "Foto de perfil",
+    "p1": "Ingeniero sénior de IA especializado en modelos de lenguaje de gran tamaño (LLM), LangChain y sistemas de recuperación-generación aumentada (RAG). Experiencia en el diseño e implementación de soluciones de IA, desde prototipos de investigación hasta sistemas a escala de producción, con un impacto medible en el rendimiento, la precisión y la eficiencia del sistema.",
+    "p2": "Experto en Python, C/C++, Node.js, PyTorch, TensorFlow e infraestructura de IA en la nube. Apasionado por desarrollar aplicaciones de IA escalables y robustas, y por la mentoría de equipos internacionales."
+  },
+  "resume": {
+    "title": "Curriculum"
+  },
+  "contact": {
+    "kicker": "Ponte en contacto",
+    "title": "Contacto.",
+    "body": "Contame sobre tu proyecto, objetivos o como puedo ayudar. Respondo en 1-2 dias habiles.",
+    "photoAlt": "Foto de la seccion de contacto",
+    "form": {
+      "nameLabel": "Tu Nombre",
+      "namePlaceholder": "Cual es tu nombre?",
+      "emailLabel": "Tu Email",
+      "emailPlaceholder": "Cual es tu email?",
+      "messageLabel": "Tu Mensaje",
+      "messagePlaceholder": "Que queres decir?",
+      "submit": "Enviar",
+      "sending": "Enviando...",
+      "success": "Gracias! Tu mensaje fue enviado.",
+      "error": "Completa todos los campos e intenta de nuevo."
+    },
+    "email": "Enviar email",
+    "linkedin": "Mensaje en LinkedIn"
+  },
+  "education": {
+    "photoAlt": "Campus universitario",
+    "school": "Universidad de Florida",
+    "items": [
+      {
+        "degree": "Maestria en Ciencias (M.S.) Ciencias de la Computacion",
+        "dates": "Jan 2009 – Jul 2013"
+      },
+      {
+        "degree": "Licenciatura en Ciencias (B.S.) Ciencias de la Computacion",
+        "dates": "Aug 2013 – Jan 2015"
+      }
+    ]
+  },
+  "employment": {
+    "scopeLabel": "Alcance:",
+    "items": [
+      {
+        "role": "Ingeniero Senior AI",
+        "company": "Primer AI, Inc | San Francisco, CA, USA",
+        "dates": "Abr 2022 – Ene 2026",
+        "scope": "Arquitecto principal de sistemas LLM y de generación aumentada por recuperación (RAG) de nivel de producción",
+        "bullets": [
+          "Diseñé e implementé una plataforma RAG empresarial que indexaba más de 1,5 millones de documentos.",
+          "Atendí más de 120 000 consultas diarias de usuarios.",
+          "Mejoré: Precision5: 84 % ~ 93 %, MRR: 0,71 ~ 0,83, Tasa de alucinación reducida en un 27 %.",
+          "Reduje la latencia de inferencia de LLM de 2,1 s a 0,8 s mediante: Cuantización (INT8/4 bits), procesamiento por lotes inteligente y poda de recuperación.",
+          "Ajusté los modelos de transformadores de parámetros 7B-13B con PyTorch + Hugging Face.",
+          "Desarrollé un marco de evaluación interno que abarca: Precision/Recall/F1, ROUGE-L, BLEU y tasa de aciertos de recuperación.",
+          "Orienté a 5 ingenieros de ML y establecí estándares de revisión y evaluación de modelos."
+        ]
+      },
+      {
+        "role": "Ingeniero de IA",
+        "company": "Wispr Flow | San Francisco, CA, USA",
+        "dates": "Feb 2017 — Mar 2022",
+        "scope": "Desarrollé sistemas de IA basados ​​en PNL y transformadores desde el prototipo hasta la producción escalable.",
+        "bullets": [
+          "Se desarrolló un motor de búsqueda semántico mediante incrustaciones vectoriales: Se redujo la tasa de error de búsqueda en un 31 % (porcentaje), se logró una latencia de respuesta de <900 ms.",
+          "Se creó un sistema de resumen abstracto (basado en BART/T5): ROUGE-L: 0,79, se redujo el tiempo de revisión manual en un 42 %.",
+          "Se implementaron sistemas de clasificación basados ​​en transformadores (BERT/RoBERTa): La puntuación F1 mejoró entre 0,76 y 0,88.",
+          "Se crearon API de inferencia que gestionan más de 80 000 solicitudes diarias.",
+          "Se crearon modelos de producción con Docker, Kubernetes y AWS."
+        ]
+      },
+      {
+        "role": "Pasante de investigación en IA",
+        "company": "Laboratorio de investigación de inteligencia artificial de Vietnam | Ho Chi Minh city, Vietnam",
+        "dates": "Feb 2015 — Ene 2017",
+        "scope": "Centrado en la investigación de aprendizaje profundo y aplicaciones tempranas de transformadores.",
+        "bullets": [
+          "Investigación de arquitecturas basadas en transformadores para tareas de PLN.",
+          "Desarrollo de prototipos de control de calidad y clasificación de texto",
+          "Implementación de un sistema de separación de audio basado en SepFormer: Mejora de la relación señal-ruido (SDR): +6,5 dB, mejora de la relación señal-ruido (SNR): +7 dB.",
+          "Realización de una evaluación sistemática utilizando: SDR/SNR (audio), precisión/recuperación/F1 (PLN)."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "back": "Volver al inicio",
+    "github": "GitHub",
+    "liveDemo": "Demo en vivo",
+    "notFound": "Proyecto no encontrado.",
+    "metaTitle": "Proyecto — Portafolio",
+    "items": {
+      "zetabarber-platform": {
+        "title": "Plataforma RAG empresarial",
+        "description": "Diseñó e implementó un sistema escalable de recuperación-generación aumentada (RAG) que integra LLM con búsqueda vectorial híbrida (densa + BM25) para respaldar la recuperación de conocimiento empresarial."
+      },
+      "warmly-ai-gtm": {
+        "title": "Sistema de resumen basado en transformadores",
+        "description": "Desarrollé una plataforma de resumen de documentos abstractos utilizando modelos de transformadores BART/T5 perfeccionados para flujos de trabajo de documentos empresariales."
+      },
+      "gmelius-email-collaboration": {
+        "title": "Separación de audio con SepFormer",
+        "description": "Desarrolló un sistema de búsqueda semántica basado en incrustaciones que mejora la relevancia contextual más allá de la búsqueda de palabras clave."
+      }
+    }
+  },
+  "skills": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "databases": "Bases de Datos",
+    "cms": "CMS",
+    "ai": "IA y ML",
+    "tools": "Herramientas y DevOps"
+  }
+}

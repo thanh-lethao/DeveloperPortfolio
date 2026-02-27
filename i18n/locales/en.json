@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "about": "About Me",
+    "employment": "Employment",
+    "skills": "Skills",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "sections": {
+    "about": "About Me",
+    "employment": "Employment History",
+    "skills": "Tech Skills",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact Me"
+  },
+  "overview": {
+    "title": "Senior AI Engineer",
+    "subtitle": "LLM Systems Architect, RAG & Transformer Optimization",
+    "cta": {
+      "projects": "View projects",
+      "contact": "Contact me",
+      "resume": "View Resume"
+    }
+  },
+  "about": {
+    "photoAlt": "Portrait photo",
+    "p1": "Senior AI Engineer specializing in Large Language Models (LLMs), LangChain, and Retrieval-Augmented Generation (RAG) systems. Experienced in designing and deploying AI solutions from research prototypes to production-scale systems, with measurable impact on system performance, accuracy, and efficiency.",
+    "p2": "Expert in Python, C/C++, Node.js, PyTorch, TensorFlow, and cloud AI infrastructure. Passionate about building scalable, robust AI applications and mentoring international teams."
+  },
+  "resume": {
+    "title": "Resume"
+  },
+  "contact": {
+    "kicker": "Get in touch",
+    "title": "Contact.",
+    "body": "Tell me about your project, goals, or how I can help. I will respond within 1-2 business days.",
+    "photoAlt": "Contact section photo",
+    "form": {
+      "nameLabel": "Your Name",
+      "namePlaceholder": "What is your name?",
+      "emailLabel": "Your Email",
+      "emailPlaceholder": "What is your email?",
+      "messageLabel": "Your Message",
+      "messagePlaceholder": "What do you want to say?",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Thanks! Your message has been sent.",
+      "error": "Please fill out all fields and try again."
+    },
+    "email": "Email me",
+    "linkedin": "Message on LinkedIn"
+  },
+  "education": {
+    "photoAlt": "University campus",
+    "school": "University of Florida",
+    "items": [
+      {
+        "degree": "Master of Science (M.S.) Computer Science",
+        "dates": "Jan 2009 – Jul 2013"
+      },
+      {
+        "degree": "Bachelor of Science (B.S.) Computer Science",
+        "dates": "Aug 2013 – Jan 2015"
+      }
+    ]
+  },
+  "employment": {
+    "scopeLabel": "Scope:",
+    "items": [
+      {
+        "role": "Senior AI Engineer",
+        "company": "Primer AI, Inc | San Francisco, CA, USA",
+        "dates": "Apr 2022 – Jan 2026",
+        "scope": "Lead architect for production-grade LLM and Retrieval-Augmented Generation(RAG) systems",
+        "bullets": [
+          "Designed and deployed enterprise RAG platform indexing 1.5M+ documents",
+          "Served 120,000+ daily user queries",
+          "Improved: Precision5: 84% ~ 93%,  MRR: 0.71 ~ 0.83, Hallucination rate reduced by 27%",
+          "Reduced LLM inference latency 2.1s ~ 0.8s via: Quantization (INT8/4-bit), Smart batching, Retrieval pruning",
+          "Fine-tuned 7B–13B parameter transformer models using PyTorch + Hugging Face",
+          "Built internal evaluation framework covering: Precision / Recall / F1, ROUGE-L, BLEU, Retrieval hit-rate",
+          "Mentored 5 ML engineers and established model review & evaluation standards"
+        ]
+      },
+      {
+        "role": "AI Engineer",
+        "company": "Wispr Flow | San Francisco, CA, USA",
+        "dates": "Feb 2017 — Mar 2022",
+        "scope": "Built NLP and transformer-based AI systems from prototype to scalable production.",
+        "bullets": [
+          "Developed semantic search engine using vector embeddings: Reduced search error rate by 31%(percent), Achieved <900ms response latency",
+          "Built abstractive summarization system (BART/T5-based): ROUGE-L: 0.79, Reduced manual review time by 42%",
+          "Implemented transformer-based classification systems (BERT/RoBERTa): F1-score improved 0.76 ~ 0.88",
+          "Built inference APIs handling 80K+ daily requests",
+          " Productionized models using Docker + Kubernetes + AWS"
+        ]
+      },
+      {
+        "role": "AI Research Intern",
+        "company": "Vietnam AI Research Lab | Ho Chi Minh city, Vietnam",
+        "dates": "Feb 2015 — Jan 2017",
+        "scope": "Focused on deep learning research and early transformer applications.",
+        "bullets": [
+          "Researched transformer-based architectures for NLP tasks",
+          "Developed QA and text classification prototypes",
+          "Implemented SepFormer-based audio separation system: SDR improvement: +6.5 dB, SNR improvement: +7 dB",
+          "Conducted systematic evaluation using: SDR / SNR (audio), Precision / Recall / F1 (NLP)"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "back": "Back to home",
+    "github": "GitHub",
+    "liveDemo": "Live Demo",
+    "notFound": "Project not found.",
+    "metaTitle": "Project — Portfolio",
+    "items": {
+      "zetabarber-platform": {
+        "title": "Enterprise RAG Platform",
+        "description": "Designed and deployed a scalable Retrieval-Augmented Generation (RAG) system integrating LLMs with hybrid vector search (dense + BM25) to support enterprise knowledge retrieval."
+      },
+      "warmly-ai-gtm": {
+        "title": "Transformer-based Summarization System",
+        "description": "Developed an abstractive document summarization platform using fine-tuned BART/T5 transformer models for enterprise document workflows."
+      },
+      "gmelius-email-collaboration": {
+        "title": "Audio Separation with SepFormer",
+        "description": "Built an embedding-based semantic search system improving contextual relevance beyond keyword search."
+      }
+    }
+  },
+  "skills": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "databases": "Databases",
+    "cms": "CMS",
+    "ai": "AI & ML",
+    "tools": "Tools & DevOps"
+  }
+}
