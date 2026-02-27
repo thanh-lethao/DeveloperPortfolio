@@ -3,7 +3,7 @@
     <div class="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
       <div class="flex items-center gap-3">
         <a
-          href="https://www.linkedin.com/in/roy-andreson-0435733a6/"
+          href="https://www.linkedin.com/in/thanhlethao/"
           target="_blank"
           rel="noreferrer"
           class="inline-flex h-9 w-9 items-center justify-center rounded-md !text-slate-900 transition hover:bg-slate-100 hover:!text-slate-950 dark:!text-slate-200 dark:hover:bg-white/5 dark:hover:!text-white"
@@ -12,7 +12,7 @@
           <span class="sr-only">LinkedIn</span>
         </a>
         <a
-          href="https://github.com/bigchubby666-sudo"
+          href="https://github.com/thanh-lethao"
           target="_blank"
           rel="noreferrer"
           class="inline-flex h-9 w-9 items-center justify-center rounded-md !text-slate-900 transition hover:bg-slate-100 hover:!text-slate-950 dark:!text-slate-200 dark:hover:bg-white/5 dark:hover:!text-white"
@@ -21,7 +21,7 @@
           <span class="sr-only">GitHub</span>
         </a>
         <a
-          href="https://dev.to/bigchubby666sudo"
+          href="https://github.com/thanh-lethao"
           target="_blank"
           rel="noreferrer"
           class="inline-flex h-9 w-9 items-center justify-center rounded-md !text-slate-900 transition hover:bg-slate-100 hover:!text-slate-950 dark:!text-slate-200 dark:hover:bg-white/5 dark:hover:!text-white"
